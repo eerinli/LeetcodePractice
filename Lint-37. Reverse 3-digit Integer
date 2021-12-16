@@ -1,0 +1,8 @@
+class Solution:
+    """
+    @param number: A 3-digit number.
+    @return: Reversed number.
+    反转一个只有3位数的整数
+    """
+    def reverseInteger(self, number):
+        int(str(number)[::-1])
