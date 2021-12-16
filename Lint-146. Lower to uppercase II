@@ -1,0 +1,10 @@
+class Solution:
+    """
+    @param letters: A string
+    @return: A string
+    将一个字符串中的小写字母转换为大写字母。不是字母的字符不需要做改变。
+    Lint-146. Lower to uppercase II
+https://www.lintcode.com/problem ... case-ii/description
+    """
+    def lowercaseToUppercase2(self, letters: str) -> str:
+        return letters.upper()
