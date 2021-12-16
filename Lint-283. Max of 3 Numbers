@@ -1,0 +1,13 @@
+class Solution:
+    """
+    @param num1: An integer
+    @param num2: An integer
+    @param num3: An integer
+    @return: an interger
+    给三个整数，求他们中的最大值
+    """
+    def maxOfThreeNumbers(self, num1, num2, num3):
+        if num1 > num2:
+            return max(num1,num3)
+        else :
+            return max(num2,num3)
